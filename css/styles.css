@@ -895,17 +895,13 @@ margin-bottom: 72px;
       gap: 112px 24px;
       text-align: left;
       flex-wrap: wrap;
-      min-width: 584px;
+      max-width: 584px;
     }
     .social-footer-container {
         justify-items: flex-start;
     }
   } 
-    @media only screen and (min-width: 768px) and (max-width: 1157px) {
-    .footer-container {
-        padding: 0 108px;
-      }
-    }
+    
   @media only screen and (min-width: 1158px) {
     .footer-container {
         max-width: 1158px;
