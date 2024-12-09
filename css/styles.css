@@ -278,8 +278,11 @@ opacity: 1;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link-mobile:hover {
+.studio {
     color: #404bbf;
+}
+.contacts-link-mobile.number {
+color: #404bbf;
 }
 
 .contacts-list-mobile {
@@ -302,7 +305,7 @@ color: #434455;
 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-link-mobile:hover {
+.contacts-link-mobile:active {
     color: #4d5ae5;
 }
 .icon-social-mobile-list {
